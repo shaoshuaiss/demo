@@ -1,28 +1,30 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <index msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <index msg="Welcome to Your Vue.js App" />
+    </div>
 </template>
 
 <script>
-import index from './pages/main'
+    import index from './pages/main'
 
-export default {
-  name: 'App',
-  components: {
-    index
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            index
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #app {
+        width: 100%;
+        height: 100%;
+    }
 </style>
